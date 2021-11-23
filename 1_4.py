@@ -26,7 +26,7 @@ else:
             image_info["display_sitename"],
         )
         count = count + 1
-        file_name = "test_%d.jpg" % (count)
+        file_name = "./Image_collection/test_%d.jpg" % (count)
         save_image(image_info["image_url"], file_name)
 
 # Docs : https://developers.kakao.com/docs/latest/ko/daum-search/dev-guide#search-image
